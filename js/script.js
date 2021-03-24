@@ -7,3 +7,15 @@
 //(non 0 oppure 1 oppure 2 oppure ecc.. tipici degli array),
 // del nuovo utente inserito sopra all'interno dell'array,
 //dopo l'ordinamento alfabetico
+
+// 1 Inserisci array con altri cognomi 
+var listaCognomi = ['pippo', 'pluto', 'rossi', 'verdi', 'einaudi'];
+console.log(listaCognomi);
+
+// 2 CHIEDI ALL'UTENTE IL COGNOME
+var cognome = prompt('Inserisci il tuo cognome').toLowerCase();
+console.log(cognome);
+
+// 3 fase veirifica presenza elemento 
+var trovato = listaCognomi.includes(cognome);
+listaCognomi.push(cognome);
